@@ -9,6 +9,19 @@ import XCTest
 @testable import _0220803_DanielSpady_XKCD_Comic
 
 class _0220803_DanielSpady_XKCD_ComicTests: XCTestCase {
+    
+    func testCurrentComicResultModel() {
+        // Given
+        var currentComicResult = CurrentComicResult()
+        
+        // When
+        currentComicResult.alt = "Description Of Comic"
+        
+        // Then
+        XCTAssertNotNil(currentComicResult.alt, "This value is not nil because it has been assigned")
+        XCTAssertNil(currentComicResult.title, "This value is nil because it has not been assigned yet")
+        XCTAssertNil(currentComicResult.img, "This value is nil because it has not been assigned yet")
+    }
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
