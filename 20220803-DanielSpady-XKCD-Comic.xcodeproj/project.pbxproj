@@ -21,6 +21,7 @@
 		9979DE77289B473600F7040C /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9979DE76289B473600F7040C /* BaseService.swift */; };
 		9979DE8C289B4FFD00F7040C /* BaseImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9979DE8B289B4FFD00F7040C /* BaseImage.swift */; };
 		9979DE95289B526700F7040C /* LoadedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9979DE94289B526700F7040C /* LoadedView.swift */; };
+		99FC5A1828A2CA2600F007B5 /* AnimatedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FC5A1728A2CA2600F007B5 /* AnimatedText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		9979DE76289B473600F7040C /* BaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
 		9979DE8B289B4FFD00F7040C /* BaseImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseImage.swift; sourceTree = "<group>"; };
 		9979DE94289B526700F7040C /* LoadedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadedView.swift; sourceTree = "<group>"; };
+		99FC5A1728A2CA2600F007B5 /* AnimatedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +232,7 @@
 			isa = PBXGroup;
 			children = (
 				9979DE94289B526700F7040C /* LoadedView.swift */,
+				99FC5A1728A2CA2600F007B5 /* AnimatedText.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -371,6 +374,7 @@
 				9979DE4E289B32CD00F7040C /* CurrentComicResult.swift in Sources */,
 				9979DE63289B429900F7040C /* CurrentComicView.swift in Sources */,
 				9979DE95289B526700F7040C /* LoadedView.swift in Sources */,
+				99FC5A1828A2CA2600F007B5 /* AnimatedText.swift in Sources */,
 				9979DDEF289B2BAE00F7040C /* _0220803_DanielSpady_XKCD_ComicApp.swift in Sources */,
 				9979DE21289B2CA100F7040C /* BaseRequest.swift in Sources */,
 			);
