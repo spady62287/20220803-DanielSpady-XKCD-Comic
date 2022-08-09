@@ -23,6 +23,8 @@ struct LoadedView: View {
                     Text("Loading")
                 case .success(let image):
                     image
+                        .resizable()
+                        .aspectRatio(1, contentMode: .fit)
                 case .failure:
                     Text("Failed")
             }
